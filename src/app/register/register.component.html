@@ -1,0 +1,14 @@
+<div class="form-container">
+    <div class="form-inner">
+        <h3>Register</h3>
+        <form action="">
+            <input name="userFirstName" [(ngModel)]="userRegisterData.userFirstName" type="text" placeholder="First Name">
+            <input name="userLastName" [(ngModel)]="userRegisterData.userLastName" type="text" placeholder="Last Name">
+            <input name="email" [(ngModel)]="userRegisterData.userEmail" type="email" placeholder="Email">
+            <input name="password" [(ngModel)]="userRegisterData.userPassword" type="password" placeholder="Password">
+            <button (click)="registerUser()">Register</button>
+        </form>
+        <a routerLink="/login">Already a Member</a>
+
+    </div>
+</div>

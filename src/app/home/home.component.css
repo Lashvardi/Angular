@@ -1,0 +1,31 @@
+.center-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-inner{
+    width: 40%;
+    padding: 60px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 24px;
+}
+
+.center-inner a{
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: blue;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.center-inner p{
+    color: #fff;
+}
